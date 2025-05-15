@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Melwyn's Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <style>
+      body {
+        margin: 0;
+        font-family: "Segoe UI", sans-serif;
+        background-color: #121212;
+        color: #ffffff;
+      }
+
+      header {
+        padding: 2rem;
+        text-align: center;
+      }
+
+      header h1 {
+        font-size: 3rem;
+        background: linear-gradient(90deg, #00bcd4, #ff4081);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      header p {
+        color: #cccccc;
+        font-size: 1.1rem;
+      }
+
+      .projects {
+        padding: 2rem;
+        max-width: 1000px;
+        margin: auto;
+      }
+
+      .project {
+        background-color: #1e1e1e;
+        border-radius: 12px;
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+        border-left: 5px solid #00bcd4;
+        transition: 0.5s;
+      }
+      .project:hover {
+        border: 2px solid transparent;
+        background-image: linear-gradient(#1e1e2f, #1e1e2f),
+          linear-gradient(135deg, #6f00ff, #a200ff, #ff007c);
+        /* background-origin: border-box;
+        background-clip: content-box, border-box; */
+        transform: scale(1.03);
+        /* box-shadow: 0 0 15px rgba(162, 0, 255, 0.6); */
+        cursor: pointer;
+      }
+      .project-card-link {
+        text-decoration: none;
+        color: inherit;
+      }
+      .project h3 {
+        margin-top: 0;
+        color: #64ffda;
+      }
+
+      .project p {
+        color: #bbbbbb;
+      }
+
+      footer {
+        text-align: center;
+        padding: 2rem;
+        background-color: #1a1a1a;
+      }
+
+      .social-icons i {
+        margin: 0 10px;
+        font-size: 1.5rem;
+        color: #ff4081;
+        transition: transform 0.3s;
+      }
+
+      .social-icons i:hover {
+        transform: scale(1.2);
+        color: #00bcd4;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Melwyn Peter</h1>
+      <p>Personal Projects Showcase</p>
+    </header>
+
+    <section class="projects">
+      <a
+        href="https://my-first-react-app-yx78.vercel.app/"
+        target="_blank"
+        class="project-card-link"
+      >
+        <div class="project">
+          <h3>React Portfolio (Sample)</h3>
+          <p>
+            A basic portfolio website built using React. Designed as a learning
+            exercise to understand React components, props, and routing.
+          </p>
+        </div>
+      </a>
+      <a
+        href="https://github.com/melwynpeter/debora.git"
+        target="_blank"
+        class="project-card-link"
+      >
+        <div class="project">
+          <h3>Debora - Personal Assistant App</h3>
+          <p>
+            Android app using Java, Kotlin, Gemini API, Firebase, voice
+            recognition, and extensive API integrations. Features include notes,
+            calls, reminders, timers, personalized chat, and more.
+          </p>
+        </div>
+      </a>
+      <a
+        href="https://www.youtube.com/@calebpeter377"
+        target="_blank"
+        class="project-card-link"
+      >
+        <div class="project">
+          <h3>Mini Projects (HTML/CSS/JS/Canvas)</h3>
+          <p>
+            Fun and interactive UI mini projects using core web technologies
+            like HTML5 Canvas, animations, and vanilla JavaScript.
+          </p>
+        </div>
+      </a>
+      <a
+        href="https://github.com/melwynpeter/Forum.git"
+        target="_blank"
+        class="project-card-link"
+        ><div class="project">
+          <h3>Forum in PHP</h3>
+          <p>
+            Basic user forum with PHP and MySQL to allow login, post threads,
+            and replies.
+          </p>
+        </div>
+      </a>
+      <a
+        href="https://github.com/melwynpeter/Blog.git"
+        target="_blank"
+        class="project-card-link"
+      >
+        <div class="project">
+          <h3>Blog in PHP</h3>
+          <p>
+            Simple dynamic blog with admin panel built using PHP and a MySQL
+            backend.
+          </p>
+        </div>
+      </a>
+      <a
+        href="https://drive.google.com/drive/folders/16L_X-0hk7r2kUZa2ExaMm9q3rli1M_Un?usp=sharing"
+        target="_blank"
+        class="project-card-link"
+      >
+        <div class="project">
+          <h3>Graphic Design Projects</h3>
+          <p>
+            Created various creative works using tools like Canva
+            and Figma.
+          </p>
+        </div>
+      </a>
+    </section>
+
+    <footer>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/melwyn-peter-5aa80134a"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fas fa-file-alt"></i></a>
+        <a href="mailto:melwynpeter34@gmail.com"
+          ><i class="fas fa-envelope"></i
+        ></a>
+        <a href="https://www.instagram.com/mel__peter/"><i class="fab fa-instagram"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>
